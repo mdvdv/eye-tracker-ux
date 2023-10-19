@@ -1,0 +1,7 @@
+sampling_rate: 1000
+distance: 450
+height: 113
+res_height: 1400
+sac_min_thres: 130
+sac_max_thres: 750
+fix_max_thres: 50
