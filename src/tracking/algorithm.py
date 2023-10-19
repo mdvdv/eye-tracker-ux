@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import numpy as np
-from math import sqrt
+from math import atan2, degrees, sqrt
 from scipy.signal import butter, filtfilt
 
 
