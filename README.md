@@ -10,5 +10,5 @@
 
 - [ ] Add dataset processing scripts.
 - [ ] Add YOLOv8 weights and inference scripts.
-- [ ] Add eye-tracking data processing demos.
+- [x] Add eye-tracking data processing demos.
 - [ ] Add information in README.
