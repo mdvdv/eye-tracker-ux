@@ -249,7 +249,7 @@ class EyeTracker(object):
         duration = []
         for fixation in self.fixations_index:
             duration.append((len(fixation)/self.sampling_rate) * 1000) # Duration in ms
-        return (numpy.mean(duration), duration)
+        return (np.mean(duration), duration)
 
     def get_saccades_amplitude(self):
         saccades   = [index for sublist in self.saccades_index for index in sublist]
