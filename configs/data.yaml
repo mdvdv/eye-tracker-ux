@@ -1,6 +1,11 @@
-train: ../dataset/train/images
-val: ../dataset/valid/images
-test: ../dataset/test/images
+path: datasets/web-elements
+train: train
+val: valid
+test: test
 
-nc: 5
-names: ['Title', 'Image', 'Table', 'Paragraph', 'Formula']
+names:
+    0: Title
+    1: Image
+    2: Table
+    3: Paragraph
+    4: Formula
